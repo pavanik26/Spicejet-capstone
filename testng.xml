@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Spicejet Suite">
+	  <!-- Listener for taking screenshots on test failure -->
+    <listeners>
+        <listener class-name="Spicejet.Spicejet.ScreenshotListner"/>
+    </listeners>	
+    <test name="Spicejet testcases">
+        <classes>
+			<class name="Spicejet.Spicejet.BrowsersetupTest"/> 
+			<class name="Spicejet.Spicejet.SignupTest"/>
+			<class name="Spicejet.Spicejet.LoginTest"/>
+			<class name="Spicejet.Spicejet.ValidateFieldsTest"/>
+			<class name="Spicejet.Spicejet.FlightSearchPageTest"/>
+			<class name="Spicejet.Spicejet.BookingPageTest"/>
+			</classes>
+    </test>
+</suite>
